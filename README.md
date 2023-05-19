@@ -64,7 +64,7 @@ using ExtremeCalculatorDataType;
     StringNumber strnum2 = new StringNumber(true, "123");
 
     Console.WriteLine(-strnum1); // -123
-    Console.WriteLine(-strnum1); // 123
+    Console.WriteLine(-strnum2); // 123
 ...
 ```
 
@@ -81,8 +81,8 @@ using ExtremeCalculatorDataType;
     StringNumber strnum2 = new StringNumber(true, "456");
     StringNumber strnum3 = new StringNumber(true, "789");
 
-    Console.WriteLine(strnum1 + strnum2 + strnum3); // 1368
-    Console.WriteLine(strnum1 - strnum2 - strnum3); // -1122
+    Console.WriteLine(strnum1 + strnum2 + strnum3); // -1368
+    Console.WriteLine(strnum1 - strnum2 - strnum3); // 1122
 ...
 ```
 
