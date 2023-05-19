@@ -1,4 +1,5 @@
 ﻿using ExtremeCalculatorDataType;
+using ExtremeCalculator;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,6 @@ namespace ExtremeCalculatorUtils
 
         public static void AppendStringNumbersOnRight(string sourceNumber, ref StringNumber targetStringNumber, int offset)
         {
-            string result = targetStringNumber.Number;
             int length = targetStringNumber.Number.Length;
             for (int i = 0; i < offset - length; i++)
             {
@@ -65,6 +65,15 @@ namespace ExtremeCalculatorUtils
                 return isLarge ? strnum2 : strnum1;
             }
 
+        }
+
+        public static Boolean DoesTwoStringNumbersAreEqual(StringNumber strnum1, StringNumber strnum2)
+        {
+            if(strnum1.Sign == strnum2.Sign && strnum1.Number == strnum2.Number)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
