@@ -77,12 +77,12 @@ public static StringNumber operator -(StringNumber strnum1, StringNumber strnum2
 ``` cs
 using ExtremeCalculatorDataType;
 ...
-    StringNumber strnum1 = new StringNumber(true, "123");
-    StringNumber strnum2 = new StringNumber(true, "456");
-    StringNumber strnum3 = new StringNumber(true, "789");
+    StringNumber strnum1 = new StringNumber(false, "123");
+    StringNumber strnum2 = new StringNumber(false, "456");
+    StringNumber strnum3 = new StringNumber(false, "789");
 
-    Console.WriteLine(strnum1 + strnum2 + strnum3); // -1368
-    Console.WriteLine(strnum1 - strnum2 - strnum3); // 1122
+    Console.WriteLine(strnum1 + strnum2 + strnum3); // 1368
+    Console.WriteLine(strnum1 - strnum2 - strnum3); // -1122
 ...
 ```
 
