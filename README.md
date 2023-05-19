@@ -51,7 +51,7 @@ public struct Fraction
 
 ### Operations
 
-#### Single Addition and Substraction (StringNumber only)
+#### Single Addition and Subtraction (StringNumber only)
 ``` cs
 public static StringNumber operator +(StringNumber strnum){...}
 public static StringNumber operator -(StringNumber strnum){...}
@@ -68,7 +68,7 @@ using ExtremeCalculatorDataType;
 ...
 ```
 
-#### Addition and Substraction (StringNumber only)
+#### Addition and Subtraction (StringNumber only)
 ``` cs
 public static StringNumber operator +(StringNumber strnum1, StringNumber strnum2){...}
 public static StringNumber operator -(StringNumber strnum1, StringNumber strnum2){...}
